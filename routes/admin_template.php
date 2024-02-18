@@ -1,0 +1,36 @@
+<?php
+Route::view('/niceAdmin', 'admin.template.index');
+Route::view('/niceAdmin/charts-apexcharts', 'admin.template.charts-apexcharts');
+Route::view('/niceAdmin/charts-chartjs', 'admin.template.charts-chartjs');
+Route::view('/niceAdmin/charts-echarts', 'admin.template.charts-echarts');
+Route::view('/niceAdmin/components-accordion', 'admin.template.components-accordion');
+Route::view('/niceAdmin/components-alerts', 'admin.template.components-alerts');
+Route::view('/niceAdmin/components-badges', 'admin.template.components-badges');
+Route::view('/niceAdmin/components-breadcrumbs', 'admin.template.components-breadcrumbs');
+Route::view('/niceAdmin/components-buttons', 'admin.template.components-buttons');
+Route::view('/niceAdmin/components-cards', 'admin.template.components-cards');
+Route::view('/niceAdmin/components-carousel', 'admin.template.components-carousel');
+Route::view('/niceAdmin/components-list-group', 'admin.template.components-list-group');
+Route::view('/niceAdmin/components-modal', 'admin.template.components-modal');
+Route::view('/niceAdmin/components-pagination', 'admin.template.components-pagination');
+Route::view('/niceAdmin/components-progress', 'admin.template.components-progress');
+Route::view('/niceAdmin/components-spinners', 'admin.template.components-spinners');
+Route::view('/niceAdmin/components-tabs', 'admin.template.components-tabs');
+Route::view('/niceAdmin/components-tooltips', 'admin.template.components-tooltips');
+Route::view('/niceAdmin/forms-editors', 'admin.template.forms-editors');
+Route::view('/niceAdmin/forms-elements', 'admin.template.forms-elements');
+Route::view('/niceAdmin/forms-layouts', 'admin.template.forms-layouts');
+Route::view('/niceAdmin/forms-validation', 'admin.template.forms-validation');
+Route::view('/niceAdmin/icons-bootstrap', 'admin.template.icons-bootstrap');
+Route::view('/niceAdmin/icons-boxicons', 'admin.template.icons-boxicons');
+Route::view('/niceAdmin/icons-remix', 'admin.template.icons-remix');
+Route::view('/niceAdmin/pages-blank', 'admin.template.pages-blank');
+Route::view('/niceAdmin/pages-contact', 'admin.template.pages-contact');
+Route::view('/niceAdmin/pages-error-404', 'admin.template.pages-error-404');
+Route::view('/niceAdmin/pages-faq', 'admin.template.pages-faq');
+Route::view('/niceAdmin/pages-login', 'admin.template.pages-login');
+Route::view('/niceAdmin/pages-register', 'admin.template.pages-register');
+Route::view('/niceAdmin/tables-data', 'admin.template.tables-data');
+Route::view('/niceAdmin/tables-general', 'admin.template.tables-general');
+Route::view('/niceAdmin/users-profile', 'admin.template.users-profile');
+
